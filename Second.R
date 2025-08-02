@@ -9,4 +9,3 @@ summary(data$Sales)
 
 # Summary statistics for all columns
 summary(data)
-
