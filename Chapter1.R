@@ -72,3 +72,7 @@ ggplot(penguins, aes(x = island, fill = species)) +
   geom_bar(position = "fill")
 ggplot(penguins, aes(x = species, fill = island)) +
   geom_bar(position = "fill")
+
+ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point()
+ggsave(filename = "penguin-plot.png")
